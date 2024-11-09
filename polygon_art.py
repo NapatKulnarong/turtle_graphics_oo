@@ -86,7 +86,7 @@ class PolygonArt:
             if 1 <= choice <= 9:
                 break
             else:
-                print(">>>>>> INVALID INPUT. PLEASE ENTER A NUMBER BETWEEN 1 AND 9 <<<<<<")
+                print("\n>>>>>> INVALID INPUT. PLEASE ENTER A NUMBER BETWEEN 1 AND 9 <<<<<<\n")
 
         for _ in range(40):
             size = random.randint(50, 150)
