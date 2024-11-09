@@ -71,6 +71,16 @@ class PolygonArt:
 
     def run(self):
         while True:
+            print("CHOICES")
+            print("(1) Generate polygons with 3 sides (triangle)")
+            print("(2) Generate polygons with 4 sides (square)")
+            print("(3) Generate polygons with 5 sides (pentagon)")
+            print("(4) Generate different types of polygon (mixed with 3, 4, and 5 sides)")
+            print("(5) Generate nested polygons with 3 sides (triangle)")
+            print("(6) Generate nested polygons with 4 sides (square)")
+            print("(7) Generate nested polygons with 5 sides (pentagon)")
+            print("(8) Generate different types of nested polygon (mixed with 3, 4, and 5 sides)")
+            print("(9) Generate different types of simple and nested polygon (mixed with 3, 4, and 5 sides)")
             choice = int(input("Type a number between 1 and 9 to generate different types of art: "))
 
             if 1 <= choice <= 9:
